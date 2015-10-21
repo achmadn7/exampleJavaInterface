@@ -9,8 +9,8 @@ public class MainApplication {
         System.out.println();
         System.out.println("Data Mahasiswa");
         System.out.println("-------------------");
-        System.out.println("NIM    : " +  intMhs.getNim());
-        System.out.println("Nama   : " +  intMhs.getNama());
+        System.out.println("NIM    : " + intMhs.getNim());
+        System.out.println("Nama   : " + intMhs.getNama());
         System.out.println("Alamat : " + intMhs.getAlamat());
         System.out.println();
 
@@ -18,8 +18,8 @@ public class MainApplication {
         System.out.println();
         System.out.println("Data Mata Kuliah");
         System.out.println("----------------------------");
-        System.out.println("Kode Mata Kuliah    : " +  inMk.getKode());
-        System.out.println("Nama Mata Kuliah    : " +  inMk.getNama());
+        System.out.println("Kode Mata Kuliah    : " + inMk.getKode());
+        System.out.println("Nama Mata Kuliah    : " + inMk.getNama());
         System.out.println("SKS                 : " + inMk.getSks());
         System.out.println("Semester            : " + inMk.getSemester());
     }
